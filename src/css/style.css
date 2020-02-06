@@ -1,0 +1,40 @@
+.menu {
+  background-color: royalblue;
+  border-bottom: 3px solid black;
+}
+.menu ul {
+  margin: 0;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.menu ul li {
+  margin-left: 1rem;
+}
+.menu ul li:last-child {
+  margin-right: 1rem;
+}
+.menu ul li a {
+  padding: 10px;
+  background-color: #4b78ff;
+  color: white;
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  background-color: lightskyblue;
+  color: black;
+}
+
+.img {
+  display: block;
+  width: 80%;
+  margin: 1em auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
